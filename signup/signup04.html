@@ -1,0 +1,819 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if IE 6 ]><html class="no-js ie ie6 lte6 lte7 lte8 lte9" xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie ie7 lte7 lte8 lte9" xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8 lte8 lte9" xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"><![endif]-->
+<!--[if IE 9 ]><html class="no-js ie ie9 lte9" xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html class="no-js" xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"><!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>소노펠리체 승마클럽</title>
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" type="image/x-icon" href="" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.10.3.custom.css" />
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<script type="text/javascript" src="/js/aui.pack.js"></script>
+<script type="text/javascript" src="/js/aui.lib.js"></script>
+<script type="text/javascript" src="/js/aui.do.js"></script>
+<script type="text/javascript">
+$(function() {
+	AUI.gnb(1,1);
+});
+</script>
+</head>
+<body>
+<!-- skipToContent -->
+<div id="skipToContent">
+	<a href="#gnb">주메뉴 바로가기</a>
+	<a href="#content">본문 바로가기</a>
+	<a href="#footer">하단메뉴 바로가기</a>
+</div>
+<!-- //skipToContent -->
+
+
+<!-- header -->
+<div id="header" class="header">
+	<div class="innerWrap">
+		<h1 class="logo"><a href="#"><img src="/images/common/logo.png" alt="EQUSTRIAN CLUB, SONOFELICE" /></a></h1>
+		<h2 class="blind">홈페이지 기능메뉴</h2>
+		<ul class="util">
+			<li class="first"><a href="#"><img src="/images/common/util01.png" alt="로그인" /></a></li>
+			<li><a href="#"><img src="/images/common/util02.png" alt="마이페이지" /></a></li>
+			<li><a href="#"><img src="/images/common/util03.png" alt="멤버쉽안내" /></a></li>
+			<li><a href="#"><img src="/images/common/util04.png" alt="고객센터" /></a></li>
+			<li><a href="#"><img src="/images/common/util05.png" alt="사이트맵" /></a></li>
+			<li class="last"><a href="#"><img src="/images/common/util06.png" alt="ENGLISH" /></a></li>
+		</ul>
+		<!-- gnb -->
+		<h2 class="blind">홈페이지 주메뉴</h2>
+		<div id="gnb" class="gnb" tabindex="0">
+			<ul>
+				<li class="sect sect01">
+					<a href="#" class="sectTrigger"><img src="/images/common/gnb01.png" alt="SONOFELICE EC" /></a>
+					<ul class="sub">
+						<li class="first"><a href="#">클럽소개</a></li>
+						<li><a href="#">브랜드 스토리</a></li>
+						<li><a href="#">이용안내</a></li>
+						<li class="last"><a href="#">찾아오시는 길</a></li>
+					</ul>
+				</li>
+				<li class="sect sect02">
+					<a href="#" class="sectTrigger"><img src="/images/common/gnb02.png" alt="FACILITY" /></a>
+					<ul class="sub">
+						<li class="first"><a href="#">시설소개</a></li>
+						<li><a href="#">클럽하우스</a></li>
+						<li><a href="#">실내마장</a></li>
+						<li><a href="#">실내연습마장</a></li>
+						<li><a href="#">실외마장</a></li>
+						<li><a href="#">잔디마장</a></li>
+						<li class="last"><a href="#">부대시설</a></li>
+					</ul>
+				</li>
+				<li class="sect sect03">
+					<a href="#" class="sectTrigger"><img src="/images/common/gnb03.png" alt="OUR TEAM" /></a>
+					<ul class="sub">
+						<li class="first"><a href="#">선수단 소개</a></li>
+						<li><a href="#">교관소개</a></li>
+						<li class="last"><a href="#">마필소개</a></li>
+					</ul>
+				</li>
+				<li class="sect sect04">
+					<a href="#" class="sectTrigger"><img src="/images/common/gnb04.png" alt="PROGRAM" /></a>
+					<ul class="sub">
+						<li class="first"><a href="#">교육 프로그램</a></li>
+						<li><a href="#">기승 프로그램</a></li>
+						<li><a href="#">외승 프로그램</a></li>
+						<li><a href="#">어린이 프로그램</a></li>
+						<li><a href="#">힐링 프로그램</a></li>
+						<li class="last"><a href="#">단체 프로그램</a></li>
+					</ul>
+				</li>
+				<li class="sect sect05">
+					<a href="#" class="sectTrigger"><img src="/images/common/gnb05.png" alt="MAGAZINE" /></a>
+					<ul class="sub">
+						<li class="first"><a href="#">승마기초상식</a></li>
+						<li><a href="#">대회종류안내</a></li>
+						<li><a href="#">피플&amp;이슈</a></li>
+						<li><a href="#">미디어</a></li>
+						<li class="last"><a href="#">공지사항</a></li>
+					</ul>
+				</li>
+				<li class="sect sect06">
+					<a href="#" class="sectTrigger"><img src="/images/common/gnb06.png" alt="EVENT" /></a>
+					<ul class="sub">
+						<li class="first"><a href="#">이벤트</a></li>
+						<li><a href="#">대회</a></li>
+						<li class="last"><a href="#">프로모션</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- //gnb -->
+	</div>
+</div>
+<!-- //header -->
+
+<!-- contentArea -->
+<div class="contentArea">
+	<!-- contentTit -->
+	<div class="contentTit">
+		<div class="innerWrap">
+			<h2 class="contentTit"><img src="/images/tit/content_tit_signup01.png" alt="JOIN US - 회원가입 : 소노펠리체 승마클럽 회원가입을 환영합니다." /></h2>
+		</div>
+	</div>
+	<!-- contentTit -->
+
+	<!-- innerContentWrap -->
+	<div class="innerContentWrap">
+		<div class="innerWrap">
+
+			<!-- content -->
+			<div class="content" id="content" tabindex="0">
+
+				<!-- SignUp -->
+				<div class="SignUp04">
+					<p><img src="/images/signup/join_proc03.png" alt="정보입력" /></p>
+					<div class="TextBox">
+						<p><img src="/images/signup/h_title04.png" alt="대명리조트 홈페이지와 함께 사용됩니다." /></p>
+						<ul class="Desc">
+							<li>대명리조트는 실명회원제 사이트이며, 사이버회원 가입 및 이용은 무료입니다.</li>
+							<li>등록하신 개인 정보는 외부에 유출되지 않으며, 회원님의 동의를 받지 않은 목적으로 사용되지 않습니다.</li>
+							<li class="last">14세 미만 아동은 회원가입을 받지 않습니다</li>
+						</ul>
+					</div>
+					<div class="WriteBoard Type01">
+						<h3 class="SecHeading"><img src="/images/signup/requiredfields.png" alt="필수입력사항" /><span class="Detail">로 표시된 부분은 필수 입력 사항입니다.</span></h3>
+						<table summary="회원분류,성명,회원id,비밀번호,비밀번호 확인,성별,이메일,휴대폰번호,주소,이메일 수신여부,휴대폰 수신여부,sms수신여부를 나타내는 표입니다.">
+							<caption>필수입력사항</caption>
+							<colgroup>
+								<col width="200" />
+								<col width="679" />
+							</colgroup>
+							<tbody>
+								<tr>
+									<th>회원분류</th>
+									<td>사이버회원</td>
+								</tr>
+								<tr>
+									<th>성명</th>
+									<td><input type="text" class="InputText01"/></td>
+								</tr>
+								<tr>
+									<th>회원 ID</th>
+									<td><input type="text" class="InputText01" /><span class="BtnType01 DuplicateCheck"><a href="#">중복확인</a></span></td>
+								</tr>
+								<tr>
+									<th>비밀번호</th>
+									<td><input type="text" class="InputText01" /><span class="PwDesc">8~20자리 영문 또는 숫자 조합</span></td>
+								</tr>
+								<tr>
+									<th>비밀번호 확인</th>
+									<td><input type="text" class="InputText01"/></td>
+								</tr>
+								<tr>
+									<th>성별</th>
+									<td>
+										<input type="radio" id="SexMan" name="Sex" />
+										<label for="SexMan">남자</label>
+										<input type="radio" id="SexWomen" name="Sex"/>
+										<label for="SexWomen">여자</label>
+									</td>
+								</tr>
+								<tr>
+									<th>이메일</th>
+									<td>
+										<select class="uiSelect email" title="id 입력란" />
+											<option value="">HSOH</option>
+										</select> @
+										<input type="text" class="domain" title="도메인 입력란" />
+										<select class="uiSelect" id="" title="도메인 선택란">
+											<option value="">직접입력</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<th>휴대폰 번호</th>
+									<td>
+										<select class="uiSelect">
+											<option value="">010</option>
+										</select> -
+										<input type="text" class="middleNum" title="핸드폰 가운데 번호 입력란" /> -
+										<input type="text" class="middleEnd" title="핸드폰 뒷자리 번호 입력란" />
+									</td>
+								</tr>
+								<tr>
+									<th>주소</th>
+									<td>
+										<input type="text" /> - <input type="text" /> <span class="BtnType01 Browse"><a href="#ZipcodePopup">찾아보기</a></span>
+										<input type="text" class="LongInput MgTop"/>
+										<input type="text" class="LongInput" />
+									</td>
+								</tr>
+								<tr>
+									<th>이메일 수신여부</th>
+									<td>
+										<input type="radio" id="Agree"/>
+										<label for="Agree">수신동의</label>
+										<input type="radio" id="Denied"/>
+										<label for="Denied">수신거부</label>
+										<p class="TextDesc">이메일 전용 할인쿠폰과 대회, 이벤트 정보를 받아 보실 수 있습니다.<br />
+										(이메일 수신거부와 관계없이 거래 관련 메시지, 회사의 주요정책 관련 메시지 등은 발송됩니다.)
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<th>휴대폰 수신여부</th>
+									<td>
+										<input type="radio" id="Agree"/>
+										<label for="Agree">수신동의</label>
+										<input type="radio" id="Denied"/>
+										<label for="Denied">수신거부</label>
+									</td>
+								</tr>
+								<tr>
+									<th class="last">SMS 수신여부</th>
+									<td class="last">
+										<input type="radio" id="Agree"/>
+										<label for="Agree">수신동의</label>
+										<input type="radio" id="Denied"/>
+										<label for="Denied">수신거부</label>
+										<p class="TextDesc">이메일 전용 할인쿠폰과 대회, 이벤트 정보를 받아 보실 수 있습니다.<br />
+										(이메일 수신거부와 관계없이 거래 관련 메시지, 회사의 주요정책 관련 메시지 등은 발송됩니다.)
+										</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="WriteBoard Type02">
+						<h3 class="SecHeading"><img src="/images/signup/select_type.png" alt="선택입력사항" /></h3>
+						<table summary="생년월일, 결혼기념일,자택전화번호,직장전화번호,직장주소,자녀 유무,선택 레저활동, 선호 취미,광광 활동, 직업을 나타내는 표입니다.">
+							<caption>필수입력사항</caption>
+							<colgroup>
+								<col width="200" />
+								<col width="679" />
+							</colgroup>
+							<tbody>
+								<tr>
+									<th>생년월일</th>
+									<td>
+										<select class="uiSelect email" title="년도" />
+											<option value="">1234</option>
+										</select>
+										<select class="uiSelect email" title="월" />
+											<option value="">12</option>
+										</select>
+										<select class="uiSelect email" title="일" />
+											<option value="">12</option>
+										</select>
+										<span class="BirthInfo">
+											<input type="radio" id="BirthType01" name="BirthType" />
+											<label for="BirthType01">양력</label>
+											<input type="radio" id="BirthType02" name="BirthType"/>
+											<label for="BirthType02">음력</label>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th>결혼기념일</th>
+									<td>
+										<select class="uiSelect email" title="년도" />
+											<option value="">1234</option>
+										</select>
+										<select class="uiSelect email" title="월" />
+											<option value="">12</option>
+										</select>
+										<select class="uiSelect email" title="일" />
+											<option value="">12</option>
+										</select>
+										<span class="BirthInfo">
+											<input type="radio" id="BirthType01" name="BirthType" />
+											<label for="BirthType01">양력</label>
+											<input type="radio" id="BirthType02" name="BirthType"/>
+											<label for="BirthType02">음력</label>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th>자택 전화번호</th>
+									<td>
+										<select class="uiSelect">
+											<option value="">010</option>
+										</select> -
+										<input type="text" class="middleNum" title="가운데 번호 입력란" /> -
+										<input type="text" class="middleEnd" title="뒷자리 번호 입력란" />
+									</td>
+								</tr>
+								<tr>
+									<th>직장 전화번호</th>
+									<td>
+										<select class="uiSelect">
+											<option value="">010</option>
+										</select> -
+										<input type="text" class="middleNum" title="가운데 번호 입력란" /> -
+										<input type="text" class="middleEnd" title="뒷자리 번호 입력란" />
+									</td>
+								</tr>
+								<tr>
+									<th>주소</th>
+									<td>
+										<input type="text" /> - <input type="text" /> <span class="BtnType01 Browse"><a href="#">찾아보기</a></span>
+										<input type="text" class="LongInput MgTop"/>
+										<input type="text" class="LongInput" />
+									</td>
+								</tr>
+								<tr>
+									<th>자녀 유무</th>
+									<td>
+										<input type="radio" id="yes" name="children"/>
+										<label for="yes">있음</label>
+										<input type="radio" id="no" name="children"/>
+										<label for="no">없음</label>
+									</td>
+								</tr>
+								<tr>
+									<th>선호 레저활동<br />(중복선택 가능)</th>
+									<td>
+										<ul class="List Type01">
+											<li>
+												<input type="checkbox" id="LeisureList01" name="LeisureList01"/>
+												<label for="LeisureList01">등산</label>
+											</li>
+											<li>
+												<input type="checkbox" id="LeisureList02" name="LeisureList02"/>
+												<label for="LeisureList02">낚시</label>
+											</li>
+											<li>
+												<input type="checkbox" id="LeisureList03" name="LeisureList03"/>
+												<label for="LeisureList03">스키</label>
+											</li>
+											<li>
+												<input type="checkbox" id="LeisureList04" name="LeisureList04"/>
+												<label for="LeisureList04">수상스포츠</label>
+											</li>
+											<li class="last">
+												<input type="checkbox" id="LeisureList05" name="LeisureList05"/>
+												<label for="LeisureList05">온천옥</label>
+											</li>
+											<li>
+												<input type="checkbox" id="LeisureList06" name="LeisureList06"/>
+												<label for="LeisureList06">골프</label>
+											</li>
+											<li>
+												<input type="checkbox" id="LeisureList07" name="LeisureList07"/>
+												<label for="LeisureList07">해수욕</label>
+											</li>
+											<li>
+												<input type="checkbox" id="LeisureList08" name="LeisureList08"/>
+												<label for="LeisureList08">놀이공원</label>
+											</li>
+											<li>
+												<input type="checkbox" id="LeisureList09" name="LeisureList09"/>
+												<label for="LeisureList09">수영장</label>
+											</li>
+											<li class="last">
+												<input type="checkbox" id="LeisureList10" name="LeisureList10"/>
+												<label for="LeisureList10">레프팅</label>
+											</li>
+											<li>
+												<input type="checkbox" id="LeisureList11" name="LeisureList11"/>
+												<label for="LeisureList11">캠핑</label>
+											</li>
+											<li>
+												<input type="checkbox" id="LeisureList12" name="LeisureList12"/>
+												<label for="LeisureList12">MTB</label>
+											</li>
+											<li>
+												<input type="checkbox" id="LeisureList13" name="LeisureList13"/>
+												<label for="LeisureList13">크루즈</label>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<th>선호 취미<br />(중복선택 가능)</th>
+									<td>
+										<ul class="List Type02">
+											<li>
+												<input type="checkbox" id="Hobby01" name="Hobby01"/>
+												<label for="Hobby01">연극관람</label>
+											</li>
+											<li>
+												<input type="checkbox" id="Hobby02" name="Hobby02"/>
+												<label for="Hobby02">사진</label>
+											</li>
+											<li>
+												<input type="checkbox" id="Hobby03" name="Hobby03"/>
+												<label for="Hobby03">대중가요</label>
+											</li>
+											<li>
+												<input type="checkbox" id="Hobby04" name="Hobby04"/>
+												<label for="Hobby04">클래식</label>
+											</li>
+											<li class="last">
+												<input type="checkbox" id="Hobby05" name="Hobby05"/>
+												<label for="Hobby05">미술</label>
+											</li>
+											<li>
+												<input type="checkbox" id="Hobby06" name="Hobby06"/>
+												<label for="Hobby06">안기연주</label>
+											</li>
+											<li>
+												<input type="checkbox" id="Hobby07" name="Hobby07"/>
+												<label for="Hobby07">무용</label>
+											</li>
+											<li>
+												<input type="checkbox" id="Hobby08" name="Hobby08"/>
+												<label for="Hobby08">서예</label>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<th>관광 활동<br />(중복선택 가능)</th>
+									<td>
+										<ul class="List Type03">
+											<li>
+												<input type="checkbox" id="Activities01" name="Activities01"/>
+												<label for="Activities01">지역축제</label>
+											</li>
+											<li>
+												<input type="checkbox" id="Activities02" name="Activities02"/>
+												<label for="Activities02">해외여행</label>
+											</li>
+											<li>
+												<input type="checkbox" id="Activities03" name="Activities03"/>
+												<label for="Activities03">놀이공원</label>
+											</li>
+											<li>
+												<input type="checkbox" id="Activities04" name="Activities04"/>
+												<label for="Activities04">문화유적</label>
+											</li>
+											<li class="last">
+												<input type="checkbox" id="Activities05" name="Activities05"/>
+												<label for="Activities05">국내캠핑</label>
+											</li>
+											<li>
+												<input type="checkbox" id="Activities06" name="Activities06"/>
+												<label for="Activities06">국내패키지여행</label>
+											</li>
+											<li>
+												<input type="checkbox" id="Activities07" name="Activities07"/>
+												<label for="Activities07">유람선</label>
+											</li>
+											<li>
+												<input type="checkbox" id="Activities08" name="Activities08"/>
+												<label for="Activities08">드라이브</label>
+											</li>
+											<li>
+												<input type="checkbox" id="Activities09" name="Activities09"/>
+												<label for="Activities09">풍경관람</label>
+											</li>
+											<li>
+												<input type="checkbox" id="Activities10" name="Activities10"/>
+												<label for="Activities10">서예</label>
+											</li>
+											<li class="last">
+												<input type="checkbox" id="Activities11" name="Activities11"/>
+												<label for="Activities11">맛집기행</label>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<th>직업</th>
+									<td>
+										<ul class="List Type04">
+											<li>
+												<input type="radio" id="Job01" name="Job01"/>
+												<label for="Job01">정치인</label>
+											</li>
+											<li>
+												<input type="radio" id="Job02" name="Job02"/>
+												<label for="Job02">각료</label>
+											</li>
+											<li>
+												<input type="radio" id="Job03" name="Job03"/>
+												<label for="Job03">군인</label>
+											</li>
+											<li>
+												<input type="radio" id="Job04" name="Job04"/>
+												<label for="Job04">공무원</label>
+											</li>
+											<li class="last">
+												<input type="radio" id="Job05" name="Job05"/>
+												<label for="Job05">금융계</label>
+											</li>
+											<li>
+												<input type="radio" id="Job06" name="Job06"/>
+												<label for="Job06">의료계</label>
+											</li>
+											<li>
+												<input type="radio" id="Job07" name="Job07"/>
+												<label for="Job07">법조계</label>
+											</li>
+											<li>
+												<input type="radio" id="Job08" name="Job08"/>
+												<label for="Job08">언론인</label>
+											</li>
+											<li>
+												<input type="radio" id="Job09" name="Job09"/>
+												<label for="Job09">실업계</label>
+											</li>
+											<li class="last">
+												<input type="radio" id="Job10" name="Job10"/>
+												<label for="Job10">교육계</label>
+											</li>
+											<li>
+												<input type="radio" id="Job11" name="Job11"/>
+												<label for="Job11">상업</label>
+											</li>
+											<li>
+												<input type="radio" id="Job12" name="Job12"/>
+												<label for="Job12">건축사</label>
+											</li>
+											<li>
+												<input type="radio" id="Job13" name="Job13"/>
+												<label for="Job13">회사원</label>
+											</li>
+											<li>
+												<input type="radio" id="Job14" name="Job14"/>
+												<label for="Job14">경찰</label>
+											</li>
+											<li class="last">
+												<input type="radio" id="Job15" name="Job15"/>
+												<label for="Job15">사업</label>
+											</li>
+											<li>
+												<input type="radio" id="Job16" name="Job16"/>
+												<label for="Job16">가사</label>
+											</li>
+											<li>
+												<input type="radio" id="Job17" name="Job17"/>
+												<label for="Job17">운수업</label>
+											</li>
+											<li>
+												<input type="radio" id="Job18" name="Job18"/>
+												<label for="Job18">목회자</label>
+											</li>
+											<li>
+												<input type="radio" id="Job19" name="Job19"/>
+												<label for="Job19">건축업</label>
+											</li>
+											<li class="last">
+												<input type="radio" id="Job20" name="Job20"/>
+												<label for="Job20">어업</label>
+											</li>
+											<li>
+												<input type="radio" id="Job21" name="Job21"/>
+												<label for="Job21">건설업</label>
+											</li>
+											<li>
+												<input type="radio" id="Job22" name="Job22"/>
+												<label for="Job22">가이드</label>
+											</li>
+											<li>
+												<input type="radio" id="Job23" name="Job23"/>
+												<label for="Job23">학생</label>
+											</li>
+											<li>
+												<input type="radio" id="Job24" name="Job24"/>
+												<label for="Job24">공업</label>
+											</li>
+											<li class="last">
+												<input type="radio" id="Job25" name="Job25"/>
+												<label for="Job25">자영업</label>
+											</li>
+											<li>
+												<input type="radio" id="Job26" name="Job26"/>
+												<label for="Job26">세무사</label>
+											</li>
+											<li>
+												<input type="radio" id="Job27" name="Job27"/>
+												<label for="Job27">무역업</label>
+											</li>
+											<li>
+												<input type="radio" id="Job28" name="Job28"/>
+												<label for="Job28">선원</label>
+											</li>
+											<li>
+												<input type="radio" id="Job29" name="Job29"/>
+												<label for="Job29">교사</label>
+											</li>
+											<li class="last">
+												<input type="radio" id="Job30" name="Job30"/>
+												<label for="Job30">기타</label>
+											</li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="BtnArea">
+							<a href="#">회원가입</a>
+							<a href="#">취소</a>
+						</div>
+					</div>
+				</div>
+				<!-- //SignUp -->
+
+			</div>
+			<!-- //content -->
+
+			<!-- sideBanner -->
+			<div class="sideBanner">
+				<h2 class="blind">예약문의 및 메뉴 링크</h2>
+				<p><img src="/images/sidebanner/txt_tel.png" alt="예약문의 1588-4888" /></p>
+				<ul>
+					<li class="banner01"><a href="#"><img src="/images/sidebanner/img_link01.png" alt="프로모션" /></a></li>
+					<li class="banner02"><a href="#"><img src="/images/sidebanner/img_link02.png" alt="이벤트" /></a></li>
+					<li class="banner03"><a href="#"><img src="/images/sidebanner/img_link03.png" alt="라이브캠" /></a></li>
+				</ul>
+			</div>
+			<!-- //sideBanner -->
+
+		</div>
+	</div>
+	<!-- //innerContentWrap -->
+</div>
+<!-- //contentArea -->
+
+<!-- footer -->
+<div id="footer" class="footer" tabindex="0">
+	<div class="innerWrap">
+
+		<h2 class="blind">사이트 메뉴</h2>
+
+		<!-- siteLinks -->
+		<div class="siteLinks">
+
+			<div class="category category01">
+				<h3 class="tit"><img src="/images/common/sitelink_tit01.png" alt="SONOFELICE EC" /></h3>
+				<ul>
+					<li><a href="#">클럽 소개</a></li>
+					<li><a href="#">브랜드 스토리</a></li>
+					<li><a href="#">이용안내</a></li>
+					<li><a href="#">찾아오시는 길</a></li>
+				</ul>
+			</div>
+			<div class="category category02">
+				<h3 class="tit"><img src="/images/common/sitelink_tit02.png" alt="FACILITY" /></h3>
+				<ul>
+					<li><a href="#">시설소개</a></li>
+					<li><a href="#">클럽하우스</a></li>
+					<li><a href="#">실내마장</a></li>
+					<li><a href="#">실내연습마장</a></li>
+					<li><a href="#">실외마장</a></li>
+					<li><a href="#">잔디마장</a></li>
+					<li><a href="#">부대시설</a></li>
+				</ul>
+			</div>
+			<div class="category category03">
+				<h3 class="tit"><img src="/images/common/sitelink_tit03.png" alt="OUR TEAM" /></h3>
+				<ul>
+					<li><a href="#">선수단 소개</a></li>
+					<li><a href="#">교관 소개</a></li>
+					<li><a href="#">마필 소개</a></li>
+				</ul>
+			</div>
+			<div class="category category04">
+				<h3 class="tit"><img src="/images/common/sitelink_tit04.png" alt="PROGRAM" /></h3>
+				<ul>
+					<li><a href="#">교육 프로그램</a></li>
+					<li><a href="#">기승 프로그램</a></li>
+					<li><a href="#">외승 프로그램</a></li>
+					<li><a href="#">어린이 프로그램</a></li>
+					<li><a href="#">힐링 프로그램</a></li>
+					<li><a href="#">단체 프로그램</a></li>
+				</ul>
+			</div>
+			<div class="category category05">
+				<h3 class="tit"><img src="/images/common/sitelink_tit05.png" alt="MAGAZINE" /></h3>
+				<ul>
+					<li><a href="#">승마노하우</a></li>
+					<li><a href="#">피플&amp;이슈</a></li>
+					<li><a href="#">미디어</a></li>
+					<li><a href="#">뉴스&amp;공지</a></li>
+				</ul>
+			</div>
+			<div class="category category06">
+				<h3 class="tit"><img src="/images/common/sitelink_tit06.png" alt="EVENT" /></h3>
+				<ul>
+					<li><a href="#">이벤트</a></li>
+					<li><a href="#">대회</a></li>
+					<li><a href="#">클럽 DAY</a></li>
+				</ul>
+			</div>
+			<div class="category category07">
+				<h3 class="tit"><img src="/images/common/sitelink_tit07.png" alt="MY PAGE" /></h3>
+				<ul>
+					<li><a href="#">예약현황</a></li>
+					<li><a href="#">기승이력</a></li>
+					<li><a href="#">라이브 CAM</a></li>
+					<li><a href="#">나의 1:1 상담</a></li>
+				</ul>
+			</div>
+			<div class="category category08">
+				<h3 class="tit"><img src="/images/common/sitelink_tit08.png" alt="CS CENTER" /></h3>
+				<ul>
+					<li><a href="#">Q&amp;A</a></li>
+				</ul>
+			</div>
+
+		</div>
+		<!-- //siteLinks -->
+
+		<!-- companyInfo -->
+		<div class="companyInfo">
+			<div class="info">
+				<ul>
+					<li class="first"><a href="#"><img src="/images/common/footer_link01.png" alt="개인정보 취급방침" /></a></li>
+					<li class="last"><a href="#"><img src="/images/common/footer_link02.png" alt="이용약관" /></a></li>
+				</ul>
+				<p class="copyright"><img src="/images/common/footer_copyright.png" alt="COPYRIGHT© 2013 DAEMYUNG LEISURE INDUSTRY CO. LTD" /></p>
+			</div>
+			<div class="familySite">
+				<h3 class="tit"><img src="/images/common/footer_familysite.png" alt="FAMILY SITE" /></h3>
+				<select id="familySite" class="uiSelect">
+					<option>비발디파크1</option>
+					<option>비발디파크2</option>
+					<option selected="selected">비발디파크3</option>
+					<option>비발디파크4</option>
+					<option>비발디파크5</option>
+				</select>
+			</div>
+		</div>
+		<!-- //companyInfo -->
+
+	</div>
+</div>
+<!-- //footer -->
+
+<!-- PopLayer -->
+<div class="PopLayer">
+	<div class="dimm"></div>
+
+	<!-- ZipcodePopup -->
+	<div class="ZipcodePopup" id="ZipcodePopup">
+
+		<!-- header -->
+		<div class="header">
+			<h1><img src="/images/signup/ZipcodeSerch.png" alt="우편번호검색" /></h1>
+			<p class="ZipcodeClose" id="ZipClosePop"><a href="#"><img src="/images/signup/popup_close.png" alt="close" /></a></p>
+		</div>
+		<!-- //header -->
+
+		<!-- Content -->
+		<div class="Content">
+			<!-- tabType1 -->
+			<ul class="tabType1">
+				<li><a href="#">지번</a></li>
+				<li class="active"><a href="#">도로명</a></li>
+			</ul>
+			<!-- //tabType1 -->
+			<!-- SearchArea -->
+			<div class="SearchArea">
+				<p class="Note">찾으시는 주소의 동(읍/면/리)을 입력하시기 바랍니다.<br />
+					예) 대흥동, 역삼1동</p>
+				<div class="Search">
+					<input type="text" class="SearchInput" />
+					<span class="Btn_search"><a href="#">검색</a></span>
+				</div>
+				<div class="TermsBox">
+					<div class="ListSelect jScrollPane">
+						<ul class="ContList">
+							<li><a href="#">서울 강남구 논현1동 논현빌딩</a></li>
+							<li><a href="#">서울 강남구 논현1동 논현빌딩</a></li>
+							<li><a href="#">서울 강남구 논현1동 논현빌딩</a></li>
+							<li><a href="#">서울 강남구 논현1동 논현빌딩</a></li>
+							<li><a href="#">서울 강남구 논현1동 논현빌딩</a></li>
+							<li><a href="#">서울 강남구 논현1동 논현빌딩</a></li>
+							<li><a href="#">서울 강남구 논현1동 논현빌딩</a></li>
+							<li><a href="#">서울 강남구 논현1동 논현빌딩</a></li>
+							<li><a href="#">서울 강남구 논현1동 논현빌딩</a></li>
+							<li><a href="#">서울 강남구 논현1동 논현빌딩</a></li>
+							<li><a href="#">서울 강남구 논현1동 논현빌딩</a></li>
+							<li><a href="#">서울 강남구 논현1동 논현빌딩</a></li>
+							<li><a href="#">서울 강남구 논현1동 논현빌딩</a></li>
+							<li><a href="#">서울 강남구 논현1동 논현빌딩</a></li>
+							<li><a href="#">서울 강남구 논현1동 논현빌딩</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- SearchArea -->
+		</div>
+		<!-- //Content -->
+
+	</div>
+	<!-- //ZipcodePopup -->
+</div>
+<!-- //PopLayer -->
+</body>
+</html>

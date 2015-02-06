@@ -1,0 +1,166 @@
+<?php include $_SERVER["DOCUMENT_ROOT"]."/eng_dev/include/doc_top.html" ; ?>
+
+<script type="text/javascript">
+$(function(){
+	guide();
+});
+
+//tabType3
+function tabType3(){
+	var tabTrigger = $(".tabType3 > li > a");
+	var tabTarget = $(".galleryType");
+
+	tabTrigger.each(function(i){
+		$(this).click(function(){
+			tabTarget.hide();
+			tabTarget.eq(i).show();
+			tabTrigger.removeClass("active");
+			$(this).addClass("active");
+			return false;
+		});
+	});
+}
+
+//gallery
+function gallery(){
+	var galleryTrigger = $('.galleryType').children('.listItem').children('a');
+	
+	galleryTrigger.each(function(i){
+		var bigImageTarget = $(this).parents('.galleryType').children('.bigImage').children('.big');
+		$(this).click(function(){
+			bigImageTarget.hide();
+			bigImageTarget.eq(i).show();
+			bigImageTarget.removeClass("active");
+			$(this).addClass("active");
+			return false;
+		});
+	});
+}
+
+function guide(){
+	$(".facilityIntroTop li").each(function(i){
+		$(".facbox_over li").hide();
+		$(this).click(function(){
+			$(this).addClass('on').siblings().removeClass('on');
+			$(".facbox_over li").hide();
+			$(".facbox_over li").eq(i).show();
+		});
+	});
+
+	$('.facbox_over li span').click(function(){
+		$(this).parent().hide();
+	});
+}
+</script>
+
+<!-- contentArea -->
+<div class="contentArea">
+	<!-- contentTit -->
+	<div class="contentTit">
+		<div class="innerWrap">
+			<h2 class="contentTit"><img src="/eng/images/tit/content_tit_facility01.png" alt="EQUESTRIAN FACILITIES : SONO FELICE equestrian club has the following facilities" /></h2>
+		</div>
+	</div>
+	<!-- contentTit -->
+
+	<!-- innerContentWrap -->
+	<div class="innerContentWrap">
+		<div class="innerWrap">
+
+			<!-- content -->
+			<div class="content" id="content" tabindex="0">	
+				<div class="facilityIntro">
+					<ol class="facilityIntroTop">
+						<li class="num1"><span class="IntroTopText">FRONT GATE</span></li>
+						<li class="num2"><span class="IntroTopText">CLUB HOUSE</span></li>
+						<li class="num3"><span class="IntroTopText">MAIN INDOOR ARENA</span></li>
+						<li class="num4"><span class="IntroTopText">HOUSE AFFAIRS</span></li>
+						<li class="num5"><span class="IntroTopText">INDOOR TRAINING ARENA</span></li>
+						<li class="num6"><span class="IntroTopText">CIRCLE ARENA</span></li>
+						<li class="num7"><span class="IntroTopText">OUTDOOR ARENA</span></li>
+						<li class="num8"><span class="IntroTopText">GRASS ARENA</span></li>
+						<li class="num9"><span class="IntroTopText">EVENT VENUE</span></li>
+						<li class="num10"><span class="IntroTopText">STORAGE</span></li>
+						<li class="num11"><span class="IntroTopText">PADDOCK</span></li>
+						<li class="num12"><span class="IntroTopText">POND</span></li>
+						<li class="num13"><span class="IntroTopText">PARKING LOT</span></li>
+					</ol>
+					<div class="facbox">
+						<img src="/eng/images/facility/facilityInfo_img.png" alt="">
+					</div>
+					<div class="facbox_over">
+						<ul>
+							<li>
+								<img src="/eng/images/facility/facilityInfo_num1.png" alt="FRONT GATE">
+								<span>close</span>
+							</li>
+							<li>
+								<img src="/eng/images/facility/facilityInfo_num2.png" alt="CLUB HOUSE">
+								<a href="http://www.sonofeliceeclub.com/facility.clubHouse.dp/dmparse.dm">more detail</a>
+								<span>close</span>
+							</li>
+							<li>
+								<img src="/eng/images/facility/facilityInfo_num3.png" alt="MAIN INDOOR ARENA">
+								<a href="http://www.sonofeliceeclub.com/facility.indoorHorse.dp/dmparse.dm">more detail</a>
+								<span>close</span>
+							</li>
+							<li>
+								<img src="/eng/images/facility/facilityInfo_num4.png" alt="HOUSE AFFAIRS">
+								<a href="http://www.sonofeliceeclub.com/facility.horseAffairs.dp/dmparse.dm">more detail</a>
+								<span>close</span>
+							</li>
+							<li>
+								<img src="/eng/images/facility/facilityInfo_num5.png" alt="CIRCLE ARENA">
+								<a href="http://www.sonofeliceeclub.com/facility.indoorPracticeHorse.dp/dmparse.dm">more detail</a>
+								<span>close</span>
+							</li>	
+							<li>
+								<img src="/eng/images/facility/facilityInfo_num6.png" alt="CIRCLE ARENA">
+								<a href="http://www.sonofeliceeclub.com/facility.grassHorse.dp/dmparse.dm">more detail</a>
+								<span>close</span>
+							</li>
+							<li>
+								<img src="/eng/images/facility/facilityInfo_num7.png" alt="OUTDOOR ARENA">
+								<a href="http://www.sonofeliceeclub.com/facility.outdoorHorse.dp/dmparse.dm">more detail</a>
+								<span>close</span>
+							</li>
+							<li>
+								<img src="/eng/images/facility/facilityInfo_num8.png" alt="GRASS ARENA">
+								<span>close</span>
+							</li>
+							<li>
+								<img src="/eng/images/facility/facilityInfo_num9.png" alt="EVENT VENUE">
+								<a href="http://www.sonofeliceeclub.com/facility.facilities.dp/dmparse.dm">more detail</a>
+								<span>close</span>
+							</li>
+							<li>
+								<img src="/eng/images/facility/facilityInfo_num10.png" alt="STORAGE">
+								<span>close</span>
+							</li>
+							<li>
+								<img src="/eng/images/facility/facilityInfo_num11.png" alt="PADDOCK">
+								<span>close</span>
+							</li>
+							<li>
+								<img src="/eng/images/facility/facilityInfo_num12.png" alt="POND">
+								<span>close</span>
+							</li>
+							<li>
+								<img src="/eng/images/facility/facilityInfo_num13.png" alt="PARKING LOT">
+								<span>close</span>
+							</li>	
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- //content -->
+
+			<?php include $_SERVER["DOCUMENT_ROOT"]."/eng/include/sidebanner.html" ; ?>
+			
+		</div>		
+	</div>
+	<!-- //innerContentWrap -->
+</div>
+<!-- //contentArea -->
+
+<?php include $_SERVER["DOCUMENT_ROOT"]."/eng/include/doc_bottom.html" ; ?>

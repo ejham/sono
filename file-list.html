@@ -1,0 +1,623 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if IE 6 ]><html class="no-js ie ie6 lte6 lte8 lte9" xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie ie7 lte7 lte8 lte9" xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8 lte8 lte9" xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"><![endif]-->
+<!--[if IE 9 ]><html class="no-js ie ie9 lte9" xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html class="no-js" xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"><!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>소노펠리체 승마클럽</title>
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" type="image/x-icon" href="" />
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<style>
+body {
+	padding:20px;
+	font-size:14px;
+	color:#333;
+	background-color:#efefef;
+	font-family: "맑은 고딕";
+}
+h1 { font-size:40px; font-weight:bold; padding:20px 20px 25px; background-color:orange; color:white; opacity:0.9; filter:alpha(opacity=90); text-shadow:2px 2px 2px 2px black;}
+.download { font-size:20px; padding:15px 20px; background-color:yellow; color:#000; text-align:right;}
+table { width:100%; background-color:white; border-spacing:0; border-radius:6px; border-collapse:collapse;}
+table thead th { background-color:#d4d4d4;}
+table th, td { padding:10px; border:1px solid #aaa; vertical-align:top;}
+table .date { text-align:center;}
+table .today { background-color:red; color:#fff; font-weight:bold;}
+.pageNum { padding:15px 0; text-align:right; font-size:14px; font-weight:bold; color:orange;}
+</style>
+<script type="text/javascript">
+window.onload = getPageAmount;
+
+function getPageAmount() {
+	var document = window.document
+		, _Body = document.getElementsByTagName('body')[0]
+		, _Tr = document.getElementsByTagName('tr')
+		, _NewElement = document.createElement('p');
+
+	_Body.appendChild(_NewElement);
+	_NewElement.setAttribute('class','pageNum');
+	_NewElement.innerHTML = 'Page Count : ' + (_Tr.length - 2);
+}
+</script>
+</head>
+<body>
+<h1>소노펠리체 승마클럽 퍼블리싱 파일 리스트</h1>
+<table>
+	<thead>
+		<tr>
+			<th>1Depth</th>
+			<th>2Depth</th>
+			<th>3Depth</th>
+			<th>4Depth</th>
+			<th>Page</th>
+			<th>File</th>
+			<th>Modified</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>임시</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="prepare.html" target="_blank">/prepare.html</a></td>
+			<td class="date">02/03</td>
+		</tr>
+		<tr>
+			<td>Layout</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="layout.html" target="_blank">/layout.html</a></td>
+			<td class="date">12/06</td>
+		</tr>
+		<tr>
+			<td>Main</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/index.html" target="_blank">/index.html</a></td>
+			<td class="date">01/14</td>
+		</tr>
+		<tr>
+			<td rowspan="3">OUR TEAM</td>
+			<td>선수단 소개</td>
+			<td></td>
+			<td></td>
+			<td>리스트</td>
+			<td><a href="/ourteam/ourteam01.html" target="_blank">/ourteam/ourteam01.html</a></td>
+			<td class="date">12/23</td>
+		</tr>
+		<tr>
+			<td>교관 소개</td>
+			<td></td>
+			<td></td>
+			<td>리스트</td>
+			<td><a href="/ourteam/ourteam02.html" target="_blank">/ourteam/ourteam02.html</a></td>
+			<td class="date">12/23</td>
+		</tr>
+		<tr>
+			<td>마필 소개</td>
+			<td></td>
+			<td></td>
+			<td>리스트</td>
+			<td><a href="/ourteam/ourteam03.html" target="_blank">/ourteam/ourteam03.html</a></td>
+			<td class="date">12/23</td>
+		</tr>
+		<tr>
+			<td rowspan="9">MAGAZINE</td>
+			<td rowspan="2">승마기초상식</td>
+			<td></td>
+			<td></td>
+			<td>리스트</td>
+			<td><a href="/magazine/magazine01_list.html" target="_blank">/magazine/magazine01_list.html</a></td>
+			<td class="date">12/10</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>뷰</td>
+			<td><a href="/magazine/magazine01_view.html" target="_blank">/magazine/magazine01_view.html</a></td>
+			<td class="date">12/10</td>
+		</tr>
+		<tr>
+			<td rowspan="2">대회종류안내</td>
+			<td></td>
+			<td></td>
+			<td>리스트</td>
+			<td><a href="/magazine/magazine02_list.html" target="_blank">/magazine/magazine02_list.html</a></td>
+			<td class="date">12/10</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>뷰</td>
+			<td><a href="/magazine/magazine02_view.html" target="_blank">/magazine/magazine02_view.html</a></td>
+			<td class="date">12/10</td>
+		</tr>
+		<tr>
+			<td rowspan="2">피플&amp;이슈</td>
+			<td></td>
+			<td></td>
+			<td>리스트</td>
+			<td><a href="/magazine/magazine03_list.html" target="_blank">/magazine/magazine03_list.html</a></td>
+			<td class="date">12/10</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>뷰</td>
+			<td><a href="/magazine/magazine03_view.html" target="_blank">/magazine/magazine03_view.html</a></td>
+			<td class="date">12/10</td>
+		</tr>
+		<tr>
+			<td>미디어</td>
+			<td></td>
+			<td></td>
+			<td>리스트</td>
+			<td><a href="/magazine/magazine04.html" target="_blank">/magazine/magazine04.html</a></td>
+			<td class="date">12/10</td>
+		</tr>
+		<tr>
+			<td rowspan="2">공지사항</td>
+			<td></td>
+			<td></td>
+			<td>리스트</td>
+			<td><a href="/magazine/magazine05_list.html" target="_blank">/magazine/magazine05_list.html</a></td>
+			<td class="date">12/10</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>뷰</td>
+			<td><a href="/magazine/magazine05_view.html" target="_blank">/magazine/magazine05_view.html</a></td>
+			<td class="date">12/10</td>
+		</tr>
+		<tr>
+			<td rowspan="6">EVENT</td>
+			<td rowspan="2">이벤트</td>
+			<td></td>
+			<td></td>
+			<td>리스트</td>
+			<td><a href="/event/event01_list.html" target="_blank">/event/event01_list.html</a></td>
+			<td class="date">12/09</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>뷰</td>
+			<td><a href="/event/event01_view.html" target="_blank">/event/event01_view.html</a></td>
+			<td class="date">12/09</td>
+		</tr>
+		<tr>
+			<td rowspan="2">대회</td>
+			<td></td>
+			<td></td>
+			<td>리스트</td>
+			<td><a href="/event/event02_list.html" target="_blank">/event/event02_list.html</a></td>
+			<td class="date">12/09</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>뷰</td>
+			<td><a href="/event/event02_view.html" target="_blank">/event/event02_view.html</a></td>
+			<td class="date">12/09</td>
+		</tr>
+		<tr>
+			<td rowspan="2">프로모션</td>
+			<td></td>
+			<td></td>
+			<td>리스트</td>
+			<td><a href="/event/event03_list.html" target="_blank">/event/event03_list.html</a></td>
+			<td class="date">12/09</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>뷰</td>
+			<td><a href="/event/event03_view.html" target="_blank">/event/event03_view.html</a></td>
+			<td class="date">12/09</td>
+		</tr>
+		<tr>
+			<td rowspan="5">MYPAGE</td>
+			<td>예약현황</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/mypage/mypage01.html" target="_blank">/mypage/mypage01.html</a></td>
+			<td class="date">12/11</td>
+		</tr>
+		<tr>
+			<td>기승이력</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/mypage/mypage02.html" target="_blank">/mypage/mypage02.html</a></td>
+			<td class="date">12/11</td>
+		</tr>
+		<tr>
+			<td>라이브CAM</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/mypage/mypage03.html" target="_blank">/mypage/mypage03.html</a></td>
+			<td class="date">12/11</td>
+		</tr>
+		<tr>
+			<td rowspan="2">나의 Q&amp;A</td>
+			<td></td>
+			<td></td>
+			<td>리스트</td>
+			<td><a href="/mypage/mypage04_list.html" target="_blank">/mypage/mypage04_list.html</a></td>
+			<td class="date">12/11</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>뷰</td>
+			<td><a href="/mypage/mypage04_view.html" target="_blank">/mypage/mypage04_view.html</a></td>
+			<td class="date">12/11</td>
+		</tr>
+		<tr>
+			<td rowspan="12">MEMBERSHIP</td>
+			<td rowspan="4">정회원</td>
+			<td>상품안내</td>
+			<td></td>
+			<td></td>
+			<td><a href="/membership/membership01_01.html" target="_blank">/membership/membership01_01.html</a></td>
+			<td class="date">12/24</td>
+		</tr>
+		<tr>
+			<td>이용약관</td>
+			<td></td>
+			<td></td>
+			<td><a href="/membership/membership01_02.html" target="_blank">/membership/membership01_02.html</a></td>
+			<td class="date">12/24</td>
+		</tr>
+		<tr>
+			<td rowspan="2">공지사항</td>
+			<td></td>
+			<td>리스트</td>
+			<td><a href="/membership/membership01_03_list.html" target="_blank">/membership/membership01_03_list.html</a></td>
+			<td class="date">12/24</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>뷰</td>
+			<td><a href="/membership/membership01_03_view.html" target="_blank">/membership/membership01_03_view.html</a></td>
+			<td class="date">12/24</td>
+		</tr>
+		<tr>
+			<td rowspan="4">자마회원</td>
+			<td>상품안내</td>
+			<td></td>
+			<td></td>
+			<td><a href="/membership/membership02_01.html" target="_blank">/membership/membership02_01.html</a></td>
+			<td class="date">12/24</td>
+		</tr>
+		<tr>
+			<td>이용약관</td>
+			<td></td>
+			<td></td>
+			<td><a href="/membership/membership02_02.html" target="_blank">/membership/membership02_02.html</a></td>
+			<td class="date">12/24</td>
+		</tr>
+		<tr>
+			<td rowspan="2">공지사항</td>
+			<td></td>
+			<td>리스트</td>
+			<td><a href="/membership/membership02_03_list.html" target="_blank">/membership/membership02_03_list.html</a></td>
+			<td class="date">12/24</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>뷰</td>
+			<td><a href="/membership/membership02_03_view.html" target="_blank">/membership/membership02_03_view.html</a></td>
+			<td class="date">12/24</td>
+		</tr>
+		<tr>
+			<td rowspan="4">지정마회원</td>
+			<td>상품안내</td>
+			<td></td>
+			<td></td>
+			<td><a href="/membership/membership03_01.html" target="_blank">/membership/membership03_01.html</a></td>
+			<td class="date">12/24</td>
+		</tr>
+		<tr>
+			<td>이용약관</td>
+			<td></td>
+			<td></td>
+			<td><a href="/membership/membership03_02.html" target="_blank">/membership/membership03_02.html</a></td>
+			<td class="date">12/24</td>
+		</tr>
+		<tr>
+			<td rowspan="2">공지사항</td>
+			<td></td>
+			<td>리스트</td>
+			<td><a href="/membership/membership03_03_list.html" target="_blank">/membership/membership03_03_list.html</a></td>
+			<td class="date">12/24</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>뷰</td>
+			<td><a href="/membership/membership03_03_view.html" target="_blank">/membership/membership03_03_view.html</a></td>
+			<td class="date">12/24</td>
+		</tr>
+		<tr>
+			<td rowspan="9">ETC</td>
+			<td>FAQ</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/etc/faq.html" target="_blank">/etc/faq.html</a></td>
+			<td class="date">12/26</td>
+		</tr>
+		<tr>
+			<td>로그인</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/etc/login.html" target="_blank">/etc/login.html</a></td>
+			<td class="date">01/20</td>
+		</tr>
+		<tr>
+			<td>비회원 로그인</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/etc/nonmember_login.html" target="_blank">/etc/nonmember_login.html</a></td>
+			<td class="date">03/20</td>
+		</tr>
+		<tr>
+			<td>이용약관</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/etc/accessTerms.html" target="_blank">/etc/accessTerms.html</a></td>
+			<td class="date">01/20</td>
+		</tr>
+		<tr>
+			<td>개인정보취급방침</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/etc/privacyPolicy.html" target="_blank">/etc/privacyPolicy.html</a></td>
+			<td class="date">01/20</td>
+		</tr>
+		<tr>
+			<td>Q&A</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/etc/qna.html" target="_blank">/etc/qna.html</a></td>
+			<td class="date">01/20</td>
+		</tr>
+		<tr>
+			<td>나의 Q&A</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/etc/myqna_list.html" target="_blank">/etc/myqna_list.html</a></td>
+			<td class="date">03/20</td>
+		</tr>
+		<tr>
+			<td>나의 Q&A</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/etc/myqna_view.html" target="_blank">/etc/myqna_view.html</a></td>
+			<td class="date">03/20</td>
+		</tr>
+		<tr>
+			<td>error page</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/etc/error.html" target="_blank">/etc/error.html</a></td>
+			<td class="date">02/20</td>
+		</tr>
+		<tr>
+			<td rowspan="7">FACILITY</td>
+			<td>시설소개</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/facility/facility01.html" target="_blank">/facility/facility01.html</a></td>
+			<td class="date">01/20</td>
+		</tr>
+		<tr>
+			<td>클럽하우스</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/facility/facility02.html" target="_blank">/facility/facility02.html</a></td>
+			<td class="date">01/13</td>
+		</tr>
+		<tr>
+			<td>실내마장</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/facility/facility03.html" target="_blank">/facility/facility03.html</a></td>
+			<td class="date">01/13</td>
+		</tr>
+		<tr>
+			<td>실내연습마장</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/facility/facility04.html" target="_blank">/facility/facility04.html</a></td>
+			<td class="date">01/13</td>
+		</tr>
+		<tr>
+			<td>실외마장</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/facility/facility05.html" target="_blank">/facility/facility05.html</a></td>
+			<td class="date">01/13</td>
+		</tr>
+		<tr>
+			<td>잔디마장</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/facility/facility06.html" target="_blank">/facility/facility06.html</a></td>
+			<td class="date">01/13</td>
+		</tr>
+		<tr>
+			<td>부대시설</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/facility/facility07.html" target="_blank">/facility/facility07.html</a></td>
+			<td class="date">01/13</td>
+		</tr>
+		<tr>
+			<td rowspan="5">PROGRAM</td>
+			<td>포니</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/program/program01.html" target="_blank">program/program01.html</a></td>
+			<td class="date">01/15</td>
+		</tr>
+		<tr>
+			<td>아카데미</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/program/program02.html" target="_blank">program/program02.html</a></td>
+			<td class="date">01/15</td>
+		</tr>
+		<tr>
+			<td>영어캠프</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/program/program03.html" target="_blank">program/program03.html</a></td>
+			<td class="date">01/15</td>
+		</tr>
+		<tr>
+			<td>승마캠프</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/program/program04.html" target="_blank">program/program04.html</a></td>
+			<td class="date">01/15</td>
+		</tr>
+		<tr>
+			<td>엘리트</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/program/program05.html" target="_blank">program/program05.html</a></td>
+			<td class="date">01/15</td>
+		</tr>
+		<tr>
+			<td rowspan="4">SONOFELICE</td>
+			<td>클럽소개</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/sonofelice_ec/sonofelice_ec01.html" target="_blank">/sonofelice_ec/sonofelice_ec01.html</a></td>
+			<td class="date">01/20</td>
+		</tr>
+		<tr>
+			<td>이용안내</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/sonofelice_ec/sonofelice_ec02_01.html" target="_blank">/sonofelice_ec/sonofelice_ec02_01.html</a></td>
+			<td class="date">01/20</td>
+		</tr>
+		<tr>
+			<td>요금안내</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/sonofelice_ec/sonofelice_ec02_02.html" target="_blank">/sonofelice_ec/sonofelice_ec02_02.html</a></td>
+			<td class="date">01/20</td>
+		</tr>
+		<tr>
+			<td>오시는길</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/sonofelice_ec/sonofelice_ec03.html" target="_blank">/sonofelice_ec/sonofelice_ec03.html</a></td>
+			<td class="date">01/20</td>
+		</tr>
+		<tr>
+			<td rowspan="6">회원가입</td>
+			<td>회원가입01</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/signup/signup01.html" target="_blank">/signup/signup01.html</a></td>
+			<td class="date">02/28</td>
+		</tr>
+		<tr>
+			<td>회원가입02</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/signup/signup02.html" target="_blank">/signup/signup02.html</a></td>
+			<td class="date">02/28</td>
+		</tr>
+		<tr>
+			<td>회원가입03</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/signup/signup03.html" target="_blank">/signup/signup03.html</a></td>
+			<td class="date">02/28</td>
+		</tr>
+	<tr>
+			<td>회원가입04</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/signup/signup04.html" target="_blank">/signup/signup04.html</a></td>
+			<td class="date">02/28</td>
+		</tr>
+		 <tr>
+			<td>회원가입05</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/signup/signup05.html" target="_blank">/signup/signup05.html</a></td>
+			<td class="date">02/28</td>
+		</tr>
+		<tr>
+			<td>회원가입06</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/signup/signup06.html" target="_blank">/signup/signup06.html</a></td>
+			<td class="date">02/28</td>
+		</tr>
+		<tr>
+			<td>회원가입완료메일</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="/sendmail/sendmail.html" target="_blank">/sendmail/sendmail.html</a></td>
+			<td class="date">03/20</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
